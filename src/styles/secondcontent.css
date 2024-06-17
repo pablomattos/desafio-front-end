@@ -1,0 +1,45 @@
+.second-content{
+    background-size: 100%;
+    width: 100%;
+    height: 880px;
+    background-color: white;
+    background-position: 'center';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.second-content-image img {
+    height: 270px;
+    width: 270px;
+  }
+
+.image-{
+    height: 270px;
+    width: 270px;
+}
+
+.image-selected{
+    height: 270px;
+    width: 270px;
+}
+
+.second-content-image{
+    width: 650px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.second-content-image-description{
+    width: 650px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+

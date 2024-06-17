@@ -1,0 +1,15 @@
+.image-description-third{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+}
+.image-description-third h1, .image-description-third h2 {
+    position: relative;
+    right: -100%;
+    animation: slideIn 5s forwards;
+  }
+  
+  @keyframes slideIn {
+    0% { right: -100%; }
+    100% { right: 0; }
+  }

@@ -1,0 +1,78 @@
+.carroussel-content{
+    background-size: 100%;
+    width: 100%;
+    height: 730px;
+    background-color: #e4239d;
+    background-position: 'center';
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.carroussel-content-slide-one{
+    background-size: 100%;
+    width: 80%;
+    height: 185px;
+    background-position: 'center';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.carroussel-content-slide-one p{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.button-one{
+    color: white;
+    max-width: 280px;
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    background-color:blue;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.button-two{
+    color: white;
+    max-width: 280px;
+    height: 50px;
+    text-decoration: none;
+    border: 2px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.swiper-horizontal{
+    width: 80%;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    color: white;
+}
