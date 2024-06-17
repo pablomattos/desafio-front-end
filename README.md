@@ -30,7 +30,7 @@
 ## 🛠️ Construído com
 
 - VsCode (link para baixar o software: https://code.visualstudio.com/download)
-  	* Obs.: Voccê pode usar a IDE de sua preferência.
+  	* Obs.: Você pode usar a IDE de sua preferência.
 
 - Tecnologias:
   	* Html
